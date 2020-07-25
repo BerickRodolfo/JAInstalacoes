@@ -62,4 +62,17 @@
 #contact .card:hover i,#contact .card:hover h4{
 	color: #87d37c;
 }
+body{
+    padding: 70px;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 0px;
+}
+.carousel{
+    margin-top: 51px;
+}
 /*# sourceMappingURL=style.css.map */
