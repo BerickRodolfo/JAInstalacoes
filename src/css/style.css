@@ -58,7 +58,7 @@
     color: #65DAF9;
 }
 
-#contact .card:hover i,#contact .card:hover h4{
+.contact .card:hover i,.contact .card:hover h4{
 	color: #87d37c;
 }
 body{
