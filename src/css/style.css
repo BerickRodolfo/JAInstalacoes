@@ -16,7 +16,6 @@
 
 .main-title::after{
     content: "";
-    border-top: 2px solid #333;
     width: 15%;
     position: absolute;
     top: 60px;
@@ -75,4 +74,35 @@ body{
 .carousel{
     margin-top: 51px;
 }
+.project-box {
+    margin-bottom: 30px;
+  }
+  
+  #filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  #portfolio-area .filter-btn {
+    color: #444;
+    border: 1px solid #444;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+  }
+  
+  #portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+    color: #FFF;
+    border: 1px solid #000000;
+    background-color: #65DAF9;
+    transition: 0.5s;
+  }
+  .img-200-200 {
+    width: 400px; 
+ }
 /*# sourceMappingURL=style.css.map */
