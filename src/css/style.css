@@ -1,9 +1,66 @@
 .carousel-caption h3 {
     color: gainsboro;
 }
+
 .carousel-caption p {
     color: gainsboro;
 }
+
+.container-fluid{
+    padding: 0;
+}
+
+#carouselSite .carousel-inner, #carouselSite .carousel-item{
+    height: 100%;
+}
+
+#carouselSite .carousel-caption{
+    top: 30%;
+
+}
+
+#carouselSite .carousel-caption h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #FFF;
+
+}
+
+#carouselSite .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #FFF;
+}
+
+.carousel .item img {
+    width: 100%;
+  }
+
+.main-btn{
+    background-color: #65DAF9;
+    color: #FFF;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+  }
+
+.main-btn:hover{
+    text-decoration: none;
+    color: #FFF;
+    background-color: transparent;
+    border-color: #65DAF9;
+
+}
+
+.carousel-indicators .active{
+    background-color: #65DAF9;
+}
+
 #about-area{
     background-color: #F9F9F9;
 }
@@ -60,19 +117,6 @@
 
 .contact .card:hover i,.contact .card:hover h4{
 	color: #87d37c;
-}
-body{
-    padding: 70px;
-}
-.carousel-inner > .item > img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
-    height: 0px;
-}
-.carousel{
-    margin-top: 51px;
 }
 .project-box {
     margin-bottom: 30px;
